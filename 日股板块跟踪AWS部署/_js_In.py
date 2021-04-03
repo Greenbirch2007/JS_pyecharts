@@ -12,24 +12,14 @@ app = Flask(__name__)
 
 
 
-@app.route('/js/j225')
+@app.route('/jsin')
 def js_j225():
-    return render_template('j225.html') # 在一个目录下,templates中
+    return render_template('js_industryDT.html') # 在一个目录下,templates中
 
 
 @app.route('/')
 def index():
     return "部署测试"
-
-@app.route('/js/j400')
-def js_j400():
-    return render_template('JS_Mons400.html') # 在一个目录下,templates中
-
-
-
-@app.route('/js/normal')
-def js_normal():
-    return render_template('JS_Mons.html') # 在一个目录下,templates中
 
 
 # 注意html必须放在templates目录下
