@@ -473,9 +473,9 @@ if __name__=="__main__":
 
     # 等待5秒钟，然后将文件移动到templates目录下
 
-    # srcj225 = '/root/j225.html'
-    # dstj225 = '/root/templates/j225.html'
-    # copyfile(srcj225, dstj225)
-    #
+    srcJSin = '/root/js_industryDT.html'
+    dstJSin = '/root/templates/js_industryDT.html'
+    copyfile(srcj225, dstj225)
+    
 
 
